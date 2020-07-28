@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.shell.windows": "C:/WINDOWS/System32/cmd.exe",
+    "files.associations": {
+        "xutility": "cpp",
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "queue": "cpp",
+        "vector": "cpp"
+    }
+}
