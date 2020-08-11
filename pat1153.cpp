@@ -21,7 +21,7 @@ bool cmp(node &a,node &b){
 
 int N,M;
 node data[maxn];
-vector<node> N3,N1; 
+
 
 int main(){
     //初始化
@@ -39,6 +39,7 @@ int main(){
         cout<<tem<<endl;
 
         if(t==1){
+            vector<node> N1; 
             for(int j=0; j<N; j++){
                 if(data[j].s[0] == tem[0]){
                     N1.push_back(data[j]);
@@ -63,6 +64,7 @@ int main(){
             }
             if(tag) {printf("%d %d\n",tol_num,tol_sco);}//cout<<<<" "<<<<endl;
         }else{
+            vector<node> N3; 
             unordered_map<string,int> n3;
             for(int j=0; j<N; j++){
                 if(data[j].s.substr(4,6) == tem){   
